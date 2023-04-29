@@ -167,3 +167,4 @@ cython_debug/
 # remove the Azure App Service Publish Profile from the Repository
 *.PublishSettings 
 .github/workflows/main_gm-flask-azure-quickstart.yml
+*-venv/

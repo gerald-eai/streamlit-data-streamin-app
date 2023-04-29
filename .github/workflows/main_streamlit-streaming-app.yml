@@ -25,8 +25,8 @@ jobs:
       - name: Create and start virtual environment
         run: |
           cd streamlit-app/src
-          python -m venv venv
-          source venv/bin/activate
+          python -m venv .streamlit-venv
+          source .streamlit-venv/bin/activate
       
       - name: Install dependencies
         run: | 
@@ -41,8 +41,8 @@ jobs:
         with:
           name: python-app
           path: |
-            . 
-            !venv/
+            ./streamlit-app/src/
+            !.streamlit-venv/
 
   deploy:
     runs-on: ubuntu-latest
