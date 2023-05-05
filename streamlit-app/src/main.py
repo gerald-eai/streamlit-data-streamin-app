@@ -17,7 +17,7 @@ if __name__ == '__main__':
     st.markdown("## :arrow_up: Upload a Water Pollution Dataset :test_tube:")
     wp_csv = st.file_uploader("Upload a Water Pollution Dataset", type=["csv"])
     
-    # todo: code is duplicated here
+    # todo: code is duplicated here, try unduplicate it
     if wq_csv is not None:
         # fix the data to our session state
         st.write(wq_csv)

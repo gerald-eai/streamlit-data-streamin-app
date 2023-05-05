@@ -168,3 +168,5 @@ cython_debug/
 *.PublishSettings 
 .github/workflows/main_gm-flask-azure-quickstart.yml
 *-venv/
+*.toml
+/streamlit-app/src/db/

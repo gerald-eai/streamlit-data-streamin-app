@@ -26,6 +26,6 @@ if __name__ == "__main__":
             st.markdown("### Please **upload** the data first")
         else:
             st.markdown("### Loaded Data dataframe")
-            st.dataframe(st.session_state.water_quality_data)
+            st.dataframe(st.session_state["water quality dataset"])
             
         
